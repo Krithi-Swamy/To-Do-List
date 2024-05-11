@@ -1,0 +1,60 @@
+body {
+  background-color: #68d2e8;
+  text-align: center;
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font {
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.container {
+  background-color: #fdde55;
+  box-shadow: 0.5rem 0.5rem 0.25rem #aaa;
+  border-radius: 0.5rem;
+  width: 30%;
+  height: 90vh;
+  position: relative;
+  left: 35%;
+  background-image: radial-gradient(
+    circle at 5px 5px,
+    #6fa3f1 1px,
+    transparent 2px,
+    transparent 8px
+  );
+  background-size: 40px 60px, 120px 40px, 12px 60px, 12px 60px;
+  background-position: 0px 0px, 0px 0px, 0px -10px, 0px 10px;
+}
+
+h1 span {
+  background-color: #03aed2;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+h1 {
+  padding: 2rem 5rem;
+}
+
+button {
+  padding: 1rem 1.5rem;
+  border: 0.15rem solid black;
+  border-radius: 0.5rem;
+}
+
+input {
+  border: 3px #03aed2;
+  border-style: none none dashed none;
+  background-color: #fdde55;
+  padding: 1rem 1.5rem;
+}
+
+ul {
+  text-align: justify;
+  font-size: 1.5rem;
+}
